@@ -1,0 +1,37 @@
+body {
+background-color: beige;
+font-family: "Noto Serif JP", serif;
+padding-top: 55px;
+            }
+
+
+ .todoAppWrapper {
+ max-width: 530px;
+margin:0 auto;
+ background-color: white;
+box-shadow: 0px 13px 15px -5px #777777;
+ border-radius: 10px;
+            }
+            a{
+                color: #595959;
+                text-decoration: None;
+
+            }
+            h1{
+                margin: 0;
+            }
+            .header{
+                text-align: center;
+                padding: 20px 0;
+                background: #2A7B9B;
+                background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 0%, rgba(237, 221, 83, 1) 70%);
+                border-radius: 10px 10px 0 0;
+                color:white;
+            }
+            .taskWrapper{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding:  20px;
+                border-top: 1px solid #4646466a;
+            }
